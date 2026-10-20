@@ -13,15 +13,13 @@ public class FullNameParser {
         String[] namedParts = fullName.split("\\s+");
 
         if (namedParts.length == 3) {
-
+            System.out.println("First name: " + namedParts[0]);
+            System.out.println("Middle name: " + namedParts[1]);
+            System.out.println("Last name: " + namedParts[2]);
         } else if (namedParts.length == 2) {
-
+            System.out.println("First name: " + namedParts[0]);
+            System.out.println("Last name: " + namedParts[1]);
         }
-
-        System.out.println("First name: " + namedParts[0]);
-        System.out.println("Middle name: " + namedParts[1]);
-        System.out.println("Last name: " + namedParts[2]);
-
 
 
 
